@@ -10,6 +10,10 @@ nav{
     padding: 10px;
 }
 
+.principal{
+    background-color: gray;
+}
+
 a{
     text-decoration: none;
     color: black;
