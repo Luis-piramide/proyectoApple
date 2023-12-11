@@ -8,6 +8,7 @@ nav{
     justify-content: center;
     gap: 5%;
     padding: 10px;
+    color: black;
 }
 
 .principal{
@@ -54,6 +55,43 @@ img{
 
 h1{
     margin-bottom: 0;
+}
+
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.tarjeta1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding-bottom: 13px;
+}
+
+.botones{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+button{
+    background-color: #0077ED;
+    color: white;
+    border: 1px solid #0077ED;
+    border-radius: 15px;
+    padding: 7px;
+}
+
+.informacion{
+    color: #0077ED;
 }
 
 @media all and (min-width: 769px) and (max-width: 1024px) {
