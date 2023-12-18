@@ -130,6 +130,10 @@ button{
     margin-bottom: 15px;
 }
 
+.container3{
+    margin: 10%;
+}
+
 @media all and (min-width: 769px) and (max-width: 1024px) {
     h2{
         font-size: 48px;
