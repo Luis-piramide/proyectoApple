@@ -105,6 +105,15 @@ button{
     padding-bottom: 13px;
 }
 
+.tarjeta3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    padding-bottom: 13px;
+}
+
 @media all and (min-width: 769px) and (max-width: 1024px) {
     h2{
         font-size: 48px;
@@ -122,6 +131,9 @@ button{
         width: 47%;
     }
     .tarjeta2{
+        width: 47%;
+    }
+    .tarjeta3{
         width: 47%;
     }
 }
@@ -154,6 +166,9 @@ button{
     .tarjeta2{
         width: 47%;
     }
+    .tarjeta3{
+        width: 47%;
+    }
 }
 
 @media all and (min-width: 1201px) {
@@ -167,6 +182,9 @@ button{
         width: 47%;
     }
     .tarjeta2{
+        width: 47%;
+    }
+    .tarjeta3{
         width: 47%;
     }
 }
